@@ -1,0 +1,27 @@
+@media screen and (max-width: 1400px) {
+    .conteiner {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .conteiner {
+    }
+    .main-conteiner {
+        flex-direction: column;
+    }
+    .text-info {
+        padding: 1rem;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .superbutton-wrapper {
+        width: 400px;
+    }
+
+    .text-info-1 p, .text-info p, ul>li, blockquote  {
+        font-size: 1.8rem;
+
+    }
+}

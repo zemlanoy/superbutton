@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <title>SUPER BUTTON</title>
+    <link rel="icon" href="./img/ico/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="conteiner">
+        <din class="main-conteiner">
+            <nav>
+                <div class="corner-box-4">РЕЛІЗ
+                    <div class="corner-timer" id="timer">
+                        <div class="timer-section">
+                            <span id="timerdays">00</span>
+                            <span>днів</span>
+                        </div>
+                        <div class="timer-section">
+                            <span id="timerhours">00</span>
+                            <span>годин</span>
+                        </div>
+                        <div class="timer-section">
+                            <span id="timerminutes">00</span>
+                            <span>хвилин</span>
+                        </div>
+                        <div class="timer-section">
+                            <span id="timerseconds">00</span>
+                            <span>секунд</span>
+                        </div>
+                    </div>
+                    <div class="text-info">
+                        <p>Ще ніколи вирішення землевпорядних задач не було таким таким легким. До Вашої уваги новий зручний сервіс, який допоможе інженерам-землевпорядникам в розробці таких видів робіт як:</p>
+                        <ul>
+                            <li>Розробка Проектів землеустрою щодо відведення земельної ділянки;</li>
+                            <li>Розробка Технічна документація щодо встановлення меж земельної ділянки в натурі;</li>
+                            <li>Розробка Технічна документація щодо поділу/об'єднання земельної ділянки;</li>
+                            <li>Валідація (перевірка на відповідність структури файлу) xml-файлів;</li>
+                            <li>Оформлення GPS зйомки земельних ділянок;</li>
+                            <li>Отримання готових звітних форм (плани, катологи координат, відомості, і т.п.) в один натиск;</li>
+                            <li>Переведедння координат земельної ділянки з системи координат CK63 в МКС-48 та навпаки;</li>
+                            <li>Та багато іншого.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img class="img-good" src="./img/stic/odobrenopack_016.png" alt="">
+                    </div>
+                </div>
+            </nav>
+            <div class="canvas-wrapper">
+                <canvas id="canvas" width="650" height="650"></canvas>
+            </div>
+        </din>
+
+    </div>
+    <div class="conteiner cher-2">
+
+
+
+
+            <div class="cher-section">
+                <div class="superbutton-wrapper">
+                    <a id="SUPERBUTTON">
+                        <span class="SUPERBUTTON-1"></span>
+                        <span class="SUPERBUTTON-2"></span>
+                        <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                        - SUPER BUTTON
+                    </a>
+                </div>
+            </div>
+            <div class="cher-section">
+                <div class="text-info-1">
+                    <p>А чи задумувались Ви раніше скільки часу Ви кожного робочого дня витрачаєте на типові задачі? Пошук координат, карт грунтів, пунктів ДГМ і т.д. Якщо взяти за розрахунок що кожного дня Ви витрачаєте 1 годину часу на вирішення типових задач, то не важко буде вирахувати що в місяць Ви даремно викидаєте 22 години свого часу. Тобто майже одинь день кожного місяця проходить даремно. А якщо взяти за розрахунок рік, таких днів назбирається вже 12-ть. А якщо ви тратите не годину, а дві, чи навіть три!?  </p>
+                    <p>А цей час Ви могли б витратити на своїх близьких, друзів, домашніх улюбленців, чи на себе, займатись свої хобі чи нарешті знайти час що б піти до спорт залу)</p>
+                    <p>Почни економити свій час вже сьогодні!</p>
+                </div>
+
+            </div>
+            <div class="cher-section">
+                <blockquote>
+                    "Я довго даремно витрачав час, і тепер час даремно витрачає мене." ....
+                    <br>
+                    <span>Уільям Шекспір</span>
+                </blockquote>
+                <blockquote>
+                    Час - це монет у вашому житті. У вас є тільки цей монет, і тільки ви маєте право визначити, на що його слід витратити. Остерігайтеся, щоб його не витратив за вас хтось інший.
+                    <br>
+                    <span>Карл Сендберг</span>
+                </blockquote>
+                </div>
+            <div class="cher-section">
+                <form class="back-info">
+                    <fieldset>
+                        <legend>ЗВОРОТНІЙ ЗВ'ЯЗОК</legend>
+                        <div class="form-grup">
+                            <input type="email" class="back-info-input" id="email">
+                            <label>@email</label>
+                        </div>
+
+                        <label></label>
+                        <textarea id=textArea" class="textarea" name="textarea"  rows="10"
+                                  placeholder="Ваші побажання ...."></textarea>
+                        <div class="form-but-div">
+                            <a class="form-but" id="mes">відправити</a>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+    </div>
+    <div class="popup">
+        <div class="popup-wrapper">
+            <div class="popup-title">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                Ваш лист успішно відправлено...
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+    <script src="./js/timer.js"></script>
+</body>
+</html>
